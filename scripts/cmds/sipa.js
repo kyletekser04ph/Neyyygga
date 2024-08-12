@@ -1,8 +1,8 @@
 module.exports = {
  config: {
- name: "kick1",
+ name: "sipa",
  version: "1.0",
- author: "𝐀𝐒𝐈𝐅 𝐱𝟔𝟗",
+ author: "kylepogi",
  countDown: 5,
  role: 1,
  shortDescription: "no prefix kick",
@@ -11,14 +11,14 @@ module.exports = {
  },
   langs: {
     en: {
-      needAdmin: "⛔ | The bot needs to be the admin of this thread."
+      needAdmin: "⛔•The bot needs to be the admin of this thread."
     }
   },
  
  onStart: async function(){}, 
  onChat: async function({ message, event, args, threadsData, api, getLang }) {
    const input = event.body;
- if (input && input.trim().toLowerCase().startsWith('kick1') || input && input.trim().toLowerCase().startsWith('kick')){
+ if (input && input.trim().toLowerCase().startsWith('sipa') || input && input.trim().toLowerCase().startsWith('kick')){
     const data = input.split(" ");
     data.shift();
    const prompt = data.join(" ");
