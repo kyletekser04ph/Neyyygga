@@ -34,21 +34,21 @@
     "enable": false,
     "ignoreCommand": []
   },
-  "authorName": "𝗥𝗞𝗢 𝗕𝗥𝗢",
-  "authorFB": "https://www.facebook.com/profile.php?id=100084573213860",
+  "authorName": "𝙆𝙔𝙇𝙀",
+  "authorFB": "https://www.facebook.com/kyledev03",
   "vipUser": [
-    "100084573213860",
+    "100052395031835",
     ""
   ],
   "adminBot": [
-    "100084573213860"
+    "100052395031835"
   ],
   "GOD": [
-    "100084573213860",
+    "100052395031835",
     ""
   ],
   "DEV": [
-    "100084573213860"
+    "100052395031835"
     
   ],
   "whiteListMode": {
@@ -62,8 +62,8 @@
     "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
     "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
   },
-  "nickNameBot": "𝗖𝗛𝗘𝗡𝗚𝗔𝗥𝗜💝♻️👑",
-  "prefix": "/",
+  "nickNameBot": "[ = ] ❃➣ 𝗭𝗘𝗣𝗛𝗕𝗢𝗧𝗩𝟮 ᴷʸˡᵉ'ˢ ᴺᵒᵗ",
+  "prefix": "=",
   "database": {
     "type": "json",
     "uriMongodb": "",
@@ -71,10 +71,10 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Kathmandu",
+  "timeZone": "Asia/Manila",
    "credentials": {
     "gmailAccount": {
-      "email": "itssamir444@gmail.com",
+      "email": "kivlynx42@gmail.com",
       "clientId": "619086167805-71euct5lg3j2uigrm688gehb14na4j18.apps.googleusercontent.com",
       "clientSecret": "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",
       "refreshToken": "1//04efPIEzT9KI1CgYIARAAGAQSNwF-L9IrnNzcvbZbAf41Cc-t7n2oPA49uWrNB7A8z8FwxsWWcBXkvU69508Nt427gvJZZNe8eBo",
