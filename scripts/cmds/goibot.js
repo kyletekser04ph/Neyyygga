@@ -20,7 +20,7 @@ config: {
   
   var { threadID, messageID, senderID } = event;
   const moment = require("moment-timezone");
-  const time = moment.tz("Asia/Dhaka").format("HH:MM:ss L");
+  const time = moment.tz("Asia/Manila").format("HH:MM:ss L");
   var idgr = `${event.threadID}`;
   var id = event.senderID;
 
@@ -213,7 +213,7 @@ config: {
    };
 
   if ((event.body.toLowerCase() == "who are you") || (event.body.toLowerCase() == "who r u")) {
-     return api.sendMessage("️I Am ASIF x69, An AI Based Messenger Chatbot.", threadID, messageID);
+     return api.sendMessage("️I Am 𝗭𝗘𝗣𝗛 𝗕𝗢𝗧𝗩𝟮 An AI Based Messenger Chatbot.", threadID, messageID);
    };
   
   if (event.body.indexOf("Bot") == 0 || (event.body.toLowerCase() == "bot") || (event.body.indexOf("বট") == 0)) {
